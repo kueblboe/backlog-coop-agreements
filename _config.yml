@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Partnership agreement
+email: manuel@backlogapp.io
+description: > # this means to ignore newlines until "baseurl:"
+  You may reuse this contract under the MIT license. We don't take any legal responsibility
+  for its content. We are not allowed to give you legal advice. Please consult a lawyer.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://partnership.backlogapp.io" # the base hostname & protocol for your site
+twitter_username: bcklog
+github_username:  kueblboe
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# org specific settings
+org: {
+  name: Backlog,
+  location: München,
+  id: 1234,
+  type: GmbH,
+  director: TBD,
+}
+founders: [
+  {name: Manuel Küblböck, address: "Ansprengestr, München"},
+  {name: Michael Milde, address:  München},
+  {name: Philipp Sporrer, address:  München},
+  {name: Vlad Barboni, address:  München},
+]
+percentage: 40
+capital: "xxxx,00 Euro"
+partners: [
+  {name: Manuel Küblböck, contribution: "xxx,- Euro"},
+  {name: Michael Milde, contribution:  "xxx,- Euro"},
+  {name: Philipp Sporrer, contribution:  "xxx,- Euro"},
+  {name: Vlad Barboni, contribution:  "xxx,- Euro"},
+]
