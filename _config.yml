@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coop.backlogapp.io" # the base hostname & protocol for your site
 twitter_username: bcklog
 github_username:  kueblboe
+github_project:  backlog-coop-agreements
 
 # Build settings
 markdown: kramdown
