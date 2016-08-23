@@ -1,6 +1,6 @@
 ---
 layout: default
-title: deutsch
+title: GbR (deutsch)
 permalink: /de/
 ---
 
